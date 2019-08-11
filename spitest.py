@@ -83,3 +83,6 @@ while addr < 0x02:
 
     time.sleep(0.5)
 
+while True:
+    time.sleep(10)
+    print(".")
