@@ -9,6 +9,7 @@ import pprint as pp
 # lighning detection interrupt handler
 def handle_interrupt(channel):
     print("interrupt!")
+    pp.pprint(spi.xfer2([0x40]))
     time.sleep(0.003)
 
 
